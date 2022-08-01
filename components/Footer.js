@@ -13,16 +13,18 @@ const Footer = () => {
       <div className='sm:flex sm:items-center sm:justify-between'>
         <Link href='/'>
           <a className='flex items-center mb-4 sm:mb-0'>
-            <Image
-              src={logo1.src}
-              className='mr-3 h-8'
-              alt='Logo'
-              height='35px'
-              width='35px'
-            />
-            <span className='ml-3 self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
-              Geek Trends
-            </span>
+            <>
+              <Image
+                src={logo1.src}
+                className='mr-3 h-8'
+                alt='Logo'
+                height='35px'
+                width='35px'
+              />
+              <span className='ml-3 self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
+                Geek Trends
+              </span>
+            </>
           </a>
         </Link>
         <div className='social-icon'>
