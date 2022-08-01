@@ -8,8 +8,8 @@ export default function Home({ posts }) {
     /* mx=margin in x-axis(Horizontal) px=padding in x-axis and mb=margin-bottom*/
     <div className='container mx-auto px-10 mb-8'>
       <Head>
-        <title>Geek Trends</title>
-        <link rel='icon' href='/logo512.ico' />
+        <title> Geek Trends</title>
+        <link rel='icon' href='/favicon.ico' />
       </Head>
       <FeaturedPosts />
       {/* lg= on large screens and this is a Blog post area*/}
